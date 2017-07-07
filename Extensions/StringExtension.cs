@@ -10,17 +10,6 @@ namespace Softveloper.Extensions
 {
     public static class StringExtension
     {
-        public static string ToValidFileFolderName(this string path)
-        {
-            var invalidFileNameChars = Path.GetInvalidFileNameChars().ToList();
-            var invalidPathChars = Path.GetInvalidPathChars().ToList();
-
-            invalidFileNameChars.ForEach(character => path = path.Replace(character.ToString(), string.Empty));
-            invalidPathChars.ForEach(character => path = path.Replace(character.ToString(), string.Empty));
-
-            return path;
-        }
-
         public static string ToSha512(this string value)
         {
             if (string.IsNullOrEmpty(value))
@@ -34,6 +23,20 @@ namespace Softveloper.Extensions
                 var hash = sha.ComputeHash(utf8Bytes);
                 return BitConverter.ToString(hash).Replace("-", string.Empty);
             }
+        }
+
+        public static string ToValidFileName(this string fileName)
+        {
+            var invalidFileNameChars = Path.GetInvalidFileNameChars().ToList();
+            invalidFileNameChars.ForEach(character => fileName = fileName.Replace(character.ToString(), string.Empty));
+            return fileName;
+        }
+
+        public static string ToValidPath(this string path)
+        {
+            var invalidPathChars = Path.GetInvalidPathChars().ToList();
+            invalidPathChars.ForEach(character => path = path.Replace(character.ToString(), string.Empty));
+            return path;
         }
     }
 }
