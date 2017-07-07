@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -9,6 +10,17 @@ namespace Softveloper.Extensions
 {
     public static class StringExtension
     {
+        public static string ToValidFileFolderName(this string path)
+        {
+            var invalidFileNameChars = Path.GetInvalidFileNameChars().ToList();
+            var invalidPathChars = Path.GetInvalidPathChars().ToList();
+
+            invalidFileNameChars.ForEach(character => path = path.Replace(character.ToString(), string.Empty));
+            invalidPathChars.ForEach(character => path = path.Replace(character.ToString(), string.Empty));
+
+            return path;
+        }
+
         public static string ToSha512(this string value)
         {
             if (string.IsNullOrEmpty(value))

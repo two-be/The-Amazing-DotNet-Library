@@ -7,11 +7,11 @@
     <authors>$author$</authors>
     <owners>$author$</owners>
     <projectUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library</projectUrl>
-    <iconUrl>https://avatars0.githubusercontent.com/u/7973560</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/TwoLogician/The-Amazing-DotNet-Library/master/T.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>Extension Method to remove invalid FileName FolderName from string.</releaseNotes>
     <copyright>Copyright 2017</copyright>
-    <tags>softveloper</tags>
+    <tags>FileName FolderName Softveloper SHA</tags>
   </metadata>
 </package>
