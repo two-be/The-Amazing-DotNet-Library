@@ -10,8 +10,8 @@
     <iconUrl>https://raw.githubusercontent.com/TwoLogician/The-Amazing-DotNet-Library/master/T.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Extension method to remove invalid filename foldername from string.</releaseNotes>
+    <releaseNotes>Cryptography to encrypt and decrypt string.</releaseNotes>
     <copyright>Copyright 2017</copyright>
-    <tags>FileName FolderName Softveloper SHA</tags>
+    <tags>Decrypt Encrypt FileName Invalid PathName Remove Softveloper SHA</tags>
   </metadata>
 </package>

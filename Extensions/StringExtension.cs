@@ -10,6 +10,7 @@ namespace Softveloper.Extensions
 {
     public static class StringExtension
     {
+
         public static string ToSha512(this string value)
         {
             if (string.IsNullOrEmpty(value))
