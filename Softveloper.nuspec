@@ -7,11 +7,11 @@
     <authors>$author$</authors>
     <owners>$author$</owners>
     <projectUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/TwoLogician/The-Amazing-DotNet-Library/master/T.png</iconUrl>
+    <iconUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library/blob/master/T.png?raw=true</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Cryptography to encrypt and decrypt string.</releaseNotes>
+    <releaseNotes>A function to get IP address version 4.</releaseNotes>
     <copyright>Copyright 2017</copyright>
-    <tags>Decrypt Encrypt FileName Invalid PathName Remove Softveloper SHA</tags>
+    <tags>Decrypt Encrypt FileName Invalid IP PathName Remove Softveloper SHA</tags>
   </metadata>
 </package>
