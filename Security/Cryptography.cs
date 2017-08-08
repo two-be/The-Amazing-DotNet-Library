@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Softveloper.Security
 {
-    public class Cryptoraphy
+    public class Cryptography
     {
         public byte[] AditionalEntropy { get; set; } = { 9, 8, 7, 6, 5 };
         public DataProtectionScope ProtectionScope { get; set; } = DataProtectionScope.CurrentUser;

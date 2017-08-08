@@ -10,7 +10,7 @@
     <iconUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library/blob/master/T.png?raw=true</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>A function to get IP address version 4.</releaseNotes>
+    <releaseNotes>Change Cryptography class name.</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Decrypt Encrypt FileName Invalid IP PathName Remove Softveloper SHA</tags>
   </metadata>
