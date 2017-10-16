@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library</projectUrl>
+    <iconUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library/blob/master/T.png?raw=true</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Change Cryptography class name.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Decrypt Encrypt FileName Invalid IP PathName Remove Softveloper SHA</tags>
+  </metadata>
+</package>
