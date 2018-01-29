@@ -1,13 +1,17 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softveloper", "Softveloper\Softveloper.csproj", "{CDCB75BD-7379-44CE-9077-DF880C88ED6A}"
+EndProject
 Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2D4D3EDF-6675-49FC-B2FC-FC454A53BFCD}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDCB75BD-7379-44CE-9077-DF880C88ED6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCB75BD-7379-44CE-9077-DF880C88ED6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCB75BD-7379-44CE-9077-DF880C88ED6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCB75BD-7379-44CE-9077-DF880C88ED6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
