@@ -1,14 +1,17 @@
-## CreateDirectory
 ```c#
 using Softveloper.IO;
 
-Filerectory.CreateDirectory();
+// Create directory
+Filerectory.CreateDirectory("./DirectoryName");
+
+// Delete file
+Filerectory.DeleteFile("./FileName");
 ```
 
-## SHA512
 ```c#
 using Softveloper.Extensions;
 
+// SHA512
 var password = "Password";
 var sha512 = password.ToSha512();
 ```
