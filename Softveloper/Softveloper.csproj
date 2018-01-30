@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageVersion>7.0.0</PackageVersion>
+    <PackageVersion>7.1.0</PackageVersion>
     <PackageIconUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library/blob/master/T.png?raw=true</PackageIconUrl>
     <Owners>The Amazing Developer-Man</Owners>
     <PackageProjectUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library</PackageProjectUrl>
-    <PackageReleaseNotes>Filerectory.CreateDirectory()</PackageReleaseNotes>
-    <PackageTags>Softveloper Directory SHA512</PackageTags>
+    <PackageReleaseNotes>Filerectory.DeleteFile</PackageReleaseNotes>
+    <PackageTags>Softveloper Directory File SHA512</PackageTags>
     <Title>Softveloper</Title>
     <Description>The Amazing DotNet-Library</Description>
   </PropertyGroup>
