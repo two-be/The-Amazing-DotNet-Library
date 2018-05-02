@@ -6,6 +6,9 @@ Filerectory.CreateDirectory("./DirectoryName");
 
 // Delete file
 Filerectory.DeleteFile("./FileName");
+
+// Write All Text
+Filerectory.WriteAllText("./FileName", "Contents");
 ```
 
 ```c#

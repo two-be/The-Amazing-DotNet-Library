@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Softveloper.IO
 {
-    public class Filerectory
+    public static class Filerectory
     {
         public static void CreateDirectory(string path)
         {
@@ -19,6 +19,13 @@ namespace Softveloper.IO
             {
                 File.Delete(path);
             }
+        }
+
+        public static void WriteAllText(string path, string contents)
+        {
+            var directory = Path.GetDirectoryName(path);
+            CreateDirectory(directory);
+            File.WriteAllText(path, contents);
         }
     }
 }

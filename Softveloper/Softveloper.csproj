@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageVersion>7.2.0</PackageVersion>
+    <PackageVersion>7.3.0</PackageVersion>
     <PackageIconUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library/blob/master/T.png?raw=true</PackageIconUrl>
     <Owners>The Amazing Developer-Man</Owners>
     <PackageProjectUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library</PackageProjectUrl>
-    <PackageReleaseNotes>httpRequest.GetStringValue("key");</PackageReleaseNotes>
+    <PackageReleaseNotes>Filerectory.WriteAllText("./Filename", "Contents");</PackageReleaseNotes>
     <PackageTags>Softveloper Directory File SHA512 HttpRequest</PackageTags>
     <Title>Softveloper</Title>
     <Description>The Amazing DotNet-Library</Description>
