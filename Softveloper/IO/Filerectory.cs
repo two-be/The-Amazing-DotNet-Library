@@ -21,6 +21,13 @@ namespace Softveloper.IO
             }
         }
 
+        public static void WriteAllBytes(string path, byte[] bytes)
+        {
+            var directory = Path.GetDirectoryName(path);
+            CreateDirectory(directory);
+            File.WriteAllBytes(path, bytes);
+        }
+
         public static void WriteAllText(string path, string contents)
         {
             var directory = Path.GetDirectoryName(path);

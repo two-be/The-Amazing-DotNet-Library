@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageVersion>7.3.0</PackageVersion>
+    <PackageVersion>7.4.2</PackageVersion>
     <PackageIconUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library/blob/master/T.png?raw=true</PackageIconUrl>
     <Owners>The Amazing Developer-Man</Owners>
     <PackageProjectUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library</PackageProjectUrl>
-    <PackageReleaseNotes>Filerectory.WriteAllText("./Filename", "Contents");</PackageReleaseNotes>
-    <PackageTags>Softveloper Directory File SHA512 HttpRequest</PackageTags>
+    <PackageReleaseNotes>HostInfo.GetIpv4();</PackageReleaseNotes>
+    <PackageTags>Softveloper Directory File IP SHA512 HttpRequest</PackageTags>
     <Title>Softveloper</Title>
     <Description>The Amazing DotNet-Library</Description>
   </PropertyGroup>
@@ -15,6 +15,7 @@
   <ItemGroup>
     <Folder Include="Extensions\" />
     <Folder Include="IO\" />
+    <Folder Include="Net\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.0.1" />
