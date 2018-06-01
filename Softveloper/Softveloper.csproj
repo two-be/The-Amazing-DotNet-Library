@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageVersion>7.4.2</PackageVersion>
+    <PackageVersion>8.0.0</PackageVersion>
     <PackageIconUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library/blob/master/T.png?raw=true</PackageIconUrl>
     <Owners>The Amazing Developer-Man</Owners>
     <PackageProjectUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library</PackageProjectUrl>
-    <PackageReleaseNotes>HostInfo.GetIpv4();</PackageReleaseNotes>
-    <PackageTags>Softveloper Directory File IP SHA512 HttpRequest</PackageTags>
+    <PackageReleaseNotes>MailClient</PackageReleaseNotes>
+    <PackageTags>Softveloper Directory File IP SHA512 HttpRequest Mail SMTP</PackageTags>
     <Title>Softveloper</Title>
     <Description>The Amazing DotNet-Library</Description>
   </PropertyGroup>
@@ -16,6 +16,7 @@
     <Folder Include="Extensions\" />
     <Folder Include="IO\" />
     <Folder Include="Net\" />
+    <Folder Include="Net\Mail\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.0.1" />

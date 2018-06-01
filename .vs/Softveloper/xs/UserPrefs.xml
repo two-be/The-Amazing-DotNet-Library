@@ -1,17 +1,13 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Softveloper/Net/HostInfo.cs">
-    <Files>
-      <File FileName="Softveloper/IO/Filerectory.cs" Line="38" Column="1" />
-      <File FileName="README.md" Line="22" Column="18" />
-      <File FileName="Softveloper/Net/HostInfo.cs" Line="10" Column="36" />
-    </Files>
+﻿<Properties StartupConfiguration="{6A754D59-B6E0-4916-A357-837283CA9693}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Softveloper" expanded="True">
             <Node name="Solution Items" expanded="True" />
-            <Node name="Softveloper" expanded="True" selected="True">
-              <Node name="Net" expanded="True" />
+            <Node name="Softveloper" expanded="True" />
+            <Node name="Softveloper.Test" expanded="True">
+              <Node name="MailClientTest.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -24,8 +20,16 @@
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
       </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Softveloper" expanded="True">
+            <Node name="Softveloper.Test" selected="True" />
+          </Node>
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Softveloper.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

@@ -36,3 +36,18 @@ HostInfo.GetIpv4();
 // Get IPv4 Address with spectific HostName
 HostInfo.GetIpv4("HostName");
 ```
+
+```c#
+using Softveloper.Net.Mail
+
+// Send an Email
+var client = new MailClient("Host", 25, "Username", "Password");
+client.Address = "FromAddress";
+client.Body = "Body";
+client.Cc.Add("CcAddress");
+client.DisplayName = "DisplayName";
+client.EnableSsl = true;
+client.Subject = "Subject";
+client.To.Add("ToAddress");
+client.Send();
+```
