@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{6A754D59-B6E0-4916-A357-837283CA9693}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="README.md">
+    <Files>
+      <File FileName="Softveloper/Extensions/StringExtensions.cs" Line="22" Column="9" />
+      <File FileName="README.md" Line="10" Column="5" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Softveloper" expanded="True">
-            <Node name="Solution Items" expanded="True" />
-            <Node name="Softveloper" expanded="True" />
-            <Node name="Softveloper.Test" expanded="True">
-              <Node name="MailClientTest.cs" selected="True" />
+            <Node name="Solution Items" expanded="True">
+              <Node name="/Users/ehiin/SoftwareDeveloper/Project/The-Amazing-DotNet-Library/README.md" selected="True" />
             </Node>
           </Node>
         </State>

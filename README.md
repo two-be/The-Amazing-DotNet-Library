@@ -5,8 +5,9 @@ using Softveloper.Extensions;
 var request = Request; //HttpRequest
 var value = request.GetStringValue("key");
 
-// SHA512
+// SHA
 var password = "Password";
+var sha384 = password.ToSha384();
 var sha512 = password.ToSha512();
 ```
 
