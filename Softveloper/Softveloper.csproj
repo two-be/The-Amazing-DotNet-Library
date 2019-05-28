@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageVersion>8.1.0</PackageVersion>
+    <PackageVersion>8.2.0</PackageVersion>
     <PackageIconUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library/blob/master/T.png?raw=true</PackageIconUrl>
     <Owners>The Amazing Developer-Man</Owners>
     <PackageProjectUrl>https://github.com/TwoLogician/The-Amazing-DotNet-Library</PackageProjectUrl>
-    <PackageReleaseNotes>SHA384</PackageReleaseNotes>
+    <PackageReleaseNotes>string.ToValidFileName();</PackageReleaseNotes>
     <PackageTags>Softveloper Directory File IP SHA HttpRequest Mail SMTP</PackageTags>
     <Title>Softveloper</Title>
     <Description>The Amazing DotNet-Library</Description>

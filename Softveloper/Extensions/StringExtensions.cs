@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -34,6 +36,13 @@ namespace Softveloper.Extensions
                 var hash = sha.ComputeHash(utf8Bytes);
                 return BitConverter.ToString(hash).Replace("-", string.Empty);
             }
+        }
+
+        public static string ToValidFileName(this string fileName)
+        {
+            var invalidFileNameChars = Path.GetInvalidFileNameChars().ToList();
+            invalidFileNameChars.ForEach(character => fileName = fileName.Replace(character.ToString(), string.Empty));
+            return fileName;
         }
     }
 }

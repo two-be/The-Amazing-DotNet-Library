@@ -9,6 +9,9 @@ var value = request.GetStringValue("key");
 var password = "Password";
 var sha384 = password.ToSha384();
 var sha512 = password.ToSha512();
+
+// Valid FileName
+var fileName = "File/Name".ToValidFileName();
 ```
 
 ```c#
