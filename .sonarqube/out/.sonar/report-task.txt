@@ -1,6 +1,0 @@
-projectKey=The-Amazing-DotNet-Library
-serverUrl=http://demosoft.me:9000
-serverVersion=7.9.1.27448
-dashboardUrl=http://demosoft.me:9000/dashboard?id=The-Amazing-DotNet-Library
-ceTaskId=AWv-rFYOLQMeZZVmnytm
-ceTaskUrl=http://demosoft.me:9000/api/ce/task?id=AWv-rFYOLQMeZZVmnytm
