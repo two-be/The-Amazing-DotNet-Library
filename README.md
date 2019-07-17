@@ -1,4 +1,4 @@
-[![Quality Gate Status](http://demosoft.me:9000/api/project_badges/measure?project=The-Amazing-DotNet-Library&metric=alert_status)](http://demosoft.me:9000/dashboard?id=The-Amazing-DotNet-Library)
+[![Quality Gate Status](http://sonarqube.demosoft.me/api/project_badges/measure?project=The-Amazing-DotNet-Library&metric=alert_status)](http://sonarqube.demosoft.me/dashboard?id=The-Amazing-DotNet-Library)
 
 ```c#
 using Softveloper.Extensions;
